@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+#location {
+    padding-left: 27px;
+    margin-left: 17px;
+}
+
+.g-nav {
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    padding: 0 30px;
+    font-size: 13px;
+}
+
+a {
+    color:rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+    margin: 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.buttonlink {
+    background-color: royalblue;
+    font-weight: bold;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    margin: 4px 2px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.buttonlink:hover {
+    text-decoration: none;
+}
+
+.buttonapps {
+    background-image: url("show-apps-button.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+    padding: 20px 20px;
+}
+
+.buttonapps:hover {
+    text-decoration: none;
+}
+
+.main {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.g-bar {
+    margin: 20px;
+    padding-right: 15px;
+    width: 575px;
+    border: 1px solid #c0c0c0;
+    height: 44px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.searchicon {
+    height: 20px;
+    width: 20px;
+    margin: auto;
+}
+
+.g-searchbar {
+    margin: auto;
+    width: 500px;
+    height: 34px;
+    border: none;
+    font-size: 16px;
+}
+
+.g-lowbutton {
+    margin: 20px;
+}
+
+.g-lb {
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.g-lb:hover {
+    text-decoration: none;
+    box-shadow: 0 1px 5px 0 grey;
+}
+
+.g-o-button {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+}
+
+.o-button {
+    color: blue;
+}
+
+li {
+    display: inline;
+}
+.nav-left {
+    float: left;
+}
+
+.nav-right {
+    float: right;
+}
+
+footer {    
+    width: 100%;
+    background-color: #f2f2f2;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.lowerfoot, .upperfoot {
+    border-top: 1px solid #dadce0;
+}
